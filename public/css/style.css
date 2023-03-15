@@ -1,0 +1,25 @@
+:root {
+    /*------ Colores */
+    ---principal: #202859;
+    ---secondary: #b0954f;
+}
+
+.prueba {
+    border: 1px solid red;
+}
+#logo_pq {
+    margin-left: 40%;
+}
+html {
+    /* font-size: 62.5%; */
+    font-size: 70%;
+}
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--valentinos-purple-strong) !important;
+}
+
+.bg_blue{
+    background-color: var(---principal);
+    height: 70px;
+}
