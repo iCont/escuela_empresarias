@@ -53,9 +53,8 @@ public function sections(){
     }
     // relacion uno a uno polimorfica
     public function image(){
-        return $this->morphOne('App\Models\Image','imageable');
+        return $this->morphOne(Image::class,'imageable');
     }
-
     public function lessons(){
         return $this->hasManyThrough('App\Models\Lesson','App\Models\Section');
     }

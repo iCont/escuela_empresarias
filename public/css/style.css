@@ -11,15 +11,25 @@
     margin-left: 40%;
 }
 html {
-    /* font-size: 62.5%; */
-    font-size: 70%;
+    font-size: 100%;
+    /* font-size: 70%; */
 }
 body {
     font-family: 'Lexend Deca', sans-serif;
     color: var(--valentinos-purple-strong) !important;
 }
-
 .bg_blue{
     background-color: var(---principal);
     height: 70px;
+}
+.hero_wrapper{
+    height: 50vh !important;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding-left: 20%;
+}
+.banner_size{
+    margin-top: -22px;
 }
